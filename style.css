@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.one {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #F9F7F0;
+}
+
+.bar {
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    color: #F9F7F0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F9F7F0;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffdb58;
+}
+
+.homeMain {
+    margin-left: 8%;
+    margin-top: 9%;
+}
+
+.homeMain h2 {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.homeMain h3 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.homeMain p {
+    color: black;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+
+.image1{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image1 img{
+    left: 20%;
+    height: 80%;
+    position: absolute;
+    bottom: 55px;
+    box-shadow: 6px 6px 0 darkgrey;
+    border-radius: 9%;
+    transition: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image1:hover .laptop{
+    bottom: 95px;
+}
+.skillsMain {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 6%;
+}
+.skillsMain h2{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+.skillsMain p {
+    color: black;
+    line-height: 22px;
+    margin-bottom: 10px
+}
+.skillsMain ul li{
+    color: black;
+    line-height: 22px;
+    margin-bottom: 20px
+}
+
+
+
+footer {
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #F9F7F0;
+    text-align: right;
+}
