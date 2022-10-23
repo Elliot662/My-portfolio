@@ -48,7 +48,7 @@ nav ul li a:hover {
 
 .homeMain {
     margin-left: 8%;
-    margin-top: 9%;
+    margin-top: 6%;
 }
 
 .homeMain h2 {
@@ -67,6 +67,21 @@ nav ul li a:hover {
     color: black;
     line-height: 22px;
     margin-bottom: 10px
+}
+
+.homeMain a {
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.homeMain a:hover{
+    color: #ffdb58;
 }
 
 .image1{
@@ -89,6 +104,9 @@ nav ul li a:hover {
 .image1:hover .laptop{
     bottom: 95px;
 }
+
+
+
 .skillsMain {
     margin-left: 8%;
     margin-right: 8%;
@@ -111,6 +129,39 @@ nav ul li a:hover {
 }
 
 
+
+.plansMain {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 6%;
+}
+.plansMain h2{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 20px;
+}
+.plansMain p {
+    color: black;
+    line-height: 22px;
+    margin-bottom: 50px
+}
+.plansMain ul li{
+    color: black;
+    line-height: 22px;
+    margin-bottom: 20px
+}
+
+.plansMain h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.images img{
+    width:50px;
+    height:50px;
+    border-radius: 90%;
+    padding: 1%;
+}
 
 footer {
     position: fixed;
