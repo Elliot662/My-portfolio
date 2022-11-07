@@ -127,6 +127,19 @@ nav ul li a:hover {
     line-height: 22px;
     margin-bottom: 20px
 }
+.skillsMain a {
+    text-decoration: none;
+    font-weight: none;
+    color: black;
+    display: inline-block;
+}
+.skillsMain a:hover{
+    color: darkgrey;
+}
+.skillsMain h4{
+    padding: 40px 0px;
+    font-size: 20px;
+}
 
 
 
